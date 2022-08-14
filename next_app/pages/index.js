@@ -5,7 +5,7 @@ import { providers, Contract } from "ethers";
 import { useEffect, useRef, useState } from "react";
 import { WHITELIST_CONTRACT_ADDRESS, abi } from "../constants";
 
-const index = () => {
+const Index = () => {
   const [isLoading, setLoading] = useState(false);
   const [whiteListedUsersCount, setWhiteListedUserCount] = useState(0);
   const [userIswhiteListed, setUserIswhiteListed] = useState(false);
@@ -175,4 +175,4 @@ const index = () => {
   );
 };
 
-export default index
+export default Index
